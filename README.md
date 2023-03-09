@@ -11,6 +11,7 @@
 <p>The frontend is connected to my Spring Application(AuthenticationService) which only handles two things, create a user and login a user so that the user may use other services presented on the frontend(BlogApiService).</p>
 <p>For validation and authentication of a user im using JsonWebTokens signed with RSA keys, the userpassword is of course not stored in MySQL database(following GDPR guidelines), but only the hashed version of it using BCrypt for encoding and decoding.</p>
 <p>⭐Example of docker-compose file👉 <a href="https://github.com/Toms-Organization/Fullstack-Application/blob/main/docker-compose.yml" target="_blank" rel="noreferrer"> Find Project here</a></P>
+<h2 align="center" ><img  src="pictures\DockerDesktop.png" width="675" height="300"  > </a>
 <hr>
 <h2>Microservices Repository</h2>
 <p>⭐Frontend Service - React 👉 <a href="https://github.com/Toms-Organization/fullstack-React-frontend" target="_blank" rel="noreferrer"> Find Project here</a></P>
